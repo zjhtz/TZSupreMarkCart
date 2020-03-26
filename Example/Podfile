@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TZSupreMarkCart_Example' do
+  pod 'TZSupreMarkCart', :path => '../'
+
+  target 'TZSupreMarkCart_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
