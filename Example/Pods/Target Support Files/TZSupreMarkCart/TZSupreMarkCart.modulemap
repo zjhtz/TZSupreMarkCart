@@ -1,0 +1,6 @@
+framework module TZSupreMarkCart {
+  umbrella header "TZSupreMarkCart-umbrella.h"
+
+  export *
+  module * { export * }
+}

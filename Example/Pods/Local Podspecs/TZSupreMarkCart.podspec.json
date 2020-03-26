@@ -1,0 +1,27 @@
+{
+  "name": "TZSupreMarkCart",
+  "version": "0.1.0",
+  "summary": "A short description of TZSupreMarkCart.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zjhtz/TZSupreMarkCart",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "772379155@qq.com": "772379155@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zjhtz/TZSupreMarkCart.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TZSupreMarkCart/Classes/**/*",
+  "dependencies": {
+    "TZSupreMarkBase": [
+
+    ]
+  }
+}

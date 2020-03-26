@@ -1,13 +1,13 @@
 use_frameworks!
-
 platform :ios, '8.0'
-
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/zhenTangIos/privatePods.git'
 target 'TZSupreMarkCart_Example' do
   pod 'TZSupreMarkCart', :path => '../'
 
   target 'TZSupreMarkCart_Tests' do
     inherit! :search_paths
-
+    pod 'TZSupreMarkBase'
     pod 'Specta'
     pod 'Expecta'
     pod 'FBSnapshotTestCase'
